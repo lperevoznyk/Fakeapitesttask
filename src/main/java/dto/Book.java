@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.extern.jackson.Jacksonized;
 
 @Data
-@Builder
+@Builder(toBuilder = true)
 @Jacksonized
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Book {
