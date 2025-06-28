@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Authors" verbose="1">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Authors test">
+        <classes>
+            <class name="tests.authors.AuthorTest"/>
+        </classes>
+    </test>
+</suite>
